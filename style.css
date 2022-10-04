@@ -1,0 +1,81 @@
+#heading 
+{
+    font-size: 35px;
+    text-align: left;
+    float: left;
+    width: 100%;
+    top: 0px;
+    padding-top: 0px;
+    display: inline;
+    margin-top: 0px;
+}
+#heading_button
+{
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 25px;
+}
+#start_button,#status
+{
+    font-size: 25px;
+}
+#start_button
+{
+    background-color:gold ;
+    color: black;
+    font-weight: bold;
+}
+#reset_button
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+#modal_button
+{
+    float: right;
+}
+.modal-dialog
+{
+    width: 90%;
+    background-color: white;
+}
+.instruction_img
+{
+    width: 45%;
+    display: inline-block;
+}
+#copyright_footer 
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+    color: aqua;
+}
+#madal_heading
+{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: red;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+canvas
+{
+    background-size: 50px;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation 
+{
+    from{box-shadow: -10px -20px 30px blue;}
+    to{box-shadow: 10px 20px 30px red;}
+}
